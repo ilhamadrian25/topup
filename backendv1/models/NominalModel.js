@@ -16,6 +16,4 @@ const NominalModel = db.define('nominal', {
     }
 },[])
 
-NominalModel.belongsTo(ProductModel, {foreignKey: 'productId'});
-
 export default NominalModel
