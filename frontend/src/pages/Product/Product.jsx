@@ -1,9 +1,9 @@
 import axios from 'axios';
 import Card from '../../components/layouts/Card'
 import React, { useEffect, useState } from 'react'
-
+import { data } from '../../utils/dumy';
 const Product = () => {
-    const [data, setData] = useState([])
+    // const [data, setData] = useState([])
     const fetchData = async () => {
         try {
             await axios({
@@ -14,7 +14,7 @@ const Product = () => {
                 // }
             })
                 .then(function (response) {
-                    setData(response.data)
+                    // setData(response.data)
                 });
         } catch (error) {
             console.log(error);
@@ -25,8 +25,7 @@ const Product = () => {
     }, [])
     return (
         <>
-
-            <div className="grid hp:grid-cols-2 3xl:grid-cols-6 gap-3 mt-2">
+            <div className="grid py-3 s1:grid-cols-3 s2:grid-cols-3 s3:grid-cols-4 s4:grid-cols-5 s5:grid-cols-6 s6:grid-cols-7 gap-3">
                 {data.map(d => {
                     return (
                         <Card

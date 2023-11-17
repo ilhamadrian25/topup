@@ -1,9 +1,9 @@
-import { Carousel } from "@material-tailwind/react";
+import { Carousel as Carousell } from "@material-tailwind/react";
 
-export default function DefaultCarousel() {
+export default function Carousel() {
     return (
-        <div className="3xl:h-470">
-            <Carousel className="rounded-xl" autoplay={true} loop={true}>
+        <div className=" s1:h-56 3xl:h-[350px]">
+            <Carousell className="rounded-xl justify-items-center items-center" autoplay={true} loop={true}>
                 <img
                     src="https://donkey.id/_next/image?url=https%3A%2F%2Fsin1.contabostorage.com%2F0a986eb902c4469cb860e43985eb18a1%3Avocapanel%2Fdonkey%2F2D038A4E-4DB2-4F9A-B442-6418DE9FEC03-4b24.jpeg&w=1920&q=75"
                     alt="image 1"
@@ -19,7 +19,7 @@ export default function DefaultCarousel() {
                     alt="image 3"
                     className="h-full w-full object-cover"
                 />
-            </Carousel>
+            </Carousell>
         </div>
     );
 }

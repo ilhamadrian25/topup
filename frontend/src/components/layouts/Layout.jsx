@@ -6,9 +6,7 @@ import StickyNavbar from './Navbar'
 const layout = () => {
   return (
     <>
-    <StickyNavbar />
-      {/* <Link to={'/'}>Home</Link>
-      <Link to={'login'}>Login</Link> */}
+      <StickyNavbar />
       <Outlet />
       <Footer />
     </>

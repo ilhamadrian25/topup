@@ -31,8 +31,8 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link className="flex items-center hover:text-light-blue-600" to={'/'}>
-          Berandaa
+        <Link className="flex items-center hover:text-light-blue-600 hover:underline" to={'/'}>
+          Beranda
         </Link>
       </Typography>
       <Typography
@@ -41,7 +41,7 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to={'/status'} className="flex items-center">
+        <Link to={'/status'} className="flex items-center hover:text-light-blue-600 hover:underline">
           Lacak pesanan
         </Link>
       </Typography>
@@ -51,7 +51,7 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to={'/count'} className="flex items-center">
+        <Link to={'/count'} className="flex items-center hover:text-light-blue-600 hover:underline">
           Hitung WR
         </Link>
       </Typography>
@@ -61,7 +61,7 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to={'/contact'} className="flex items-center">
+        <Link to={'/contact'} className="flex items-center hover:text-light-blue-600 hover:underline">
           Kontak
         </Link>
       </Typography>
@@ -70,7 +70,7 @@ export default function StickyNavbar() {
 
   return (
     <div className="container">
-      <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:py-4">
+      <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-5 py-2 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             className="mr-4 cursor-pointer py-1.5 font-medium"
@@ -99,11 +99,11 @@ export default function StickyNavbar() {
             {openSearch ? (
               <>
                 <Input label={'Cari...'} />
-                <svg xmlns="http://www.w3.org/2000/svg" onClick={() => setOpenSearch(!openSearch)} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <svg xmlns="http://www.w3.org/2000/svg" onClick={() => setOpenSearch(!openSearch)} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </>
-            ) : (<svg xmlns="http://www.w3.org/2000/svg" onClick={() => setOpenSearch(!openSearch)} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+            ) : (<svg xmlns="http://www.w3.org/2000/svg" onClick={() => setOpenSearch(!openSearch)} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer">
               <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
             </svg>)}
 
