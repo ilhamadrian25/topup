@@ -1,5 +1,5 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-// import Home from './pages/Home/Home'
+import Home from './pages/Home/Home'
 import Layout from './components/layouts/Layout'
 import Login from './pages/Auth/Login'
 import StatusProduct from './pages/Status/StatusProduct'
@@ -11,7 +11,7 @@ function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     <>
       <Route path='/' element={<Layout />}>
-        {/* <Route index element={<Home />} /> */}
+        <Route index element={<Home />} />
         <Route path='status' element={<StatusProduct />} />
         <Route path='contact' element={<Contact />} />
         <Route path=':slug' element={<View />} />
