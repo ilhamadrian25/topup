@@ -1,5 +1,4 @@
 import React from 'react'
-import Loader from '../../components/layouts/Loader'
 import Carousel from '../../components/layouts/Carousel'
 import Tab from '../../components/layouts/Tabs'
 
