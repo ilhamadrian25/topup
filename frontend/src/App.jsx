@@ -5,7 +5,6 @@ import Login from './pages/Auth/Login'
 import StatusProduct from './pages/Status/StatusProduct'
 import Contact from './pages/Contact/Contact'
 import Register from './pages/Auth/Register'
-import CountWr from './pages/CountWr/CountWr'
 import View from './pages/Product/View'
 
 function App() {

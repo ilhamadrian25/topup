@@ -2,8 +2,6 @@ import axios from 'axios'
 import React, { useCallback, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Input from '../../components/inputs/Input'
-import { Disclosure } from '@headlessui/react'
-import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import Disclosuree from '../../components/layouts/Disclosure'
 import MyModal from '../../components/dialog/modal'
 
