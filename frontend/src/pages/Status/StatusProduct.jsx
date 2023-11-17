@@ -1,6 +1,4 @@
 import React from 'react'
-import Loader from '../../components/layouts/Loader'
-import Input from '../../components/inputs/Input'
 
 const StatusProduct = () => {
     return (
