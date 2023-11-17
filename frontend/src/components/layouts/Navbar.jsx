@@ -24,7 +24,7 @@ export default function StickyNavbar() {
   const [openSearch, setOpenSearch] = React.useState(false);
 
   const navList = (
-    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 z-20">
       <Typography
         as="li"
         variant="small"
@@ -69,8 +69,8 @@ export default function StickyNavbar() {
   );
 
   return (
-    <div className="container">
-      <Navbar className="fixed top-0 z-10 h-max max-w-full rounded-none px-5 py-2 lg:py-4">
+    <div className="container z-20">
+      <Navbar className="fixed top-0 z-20 h-max max-w-full rounded-none px-5 py-2 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             className="mr-4 cursor-pointer py-1.5 font-medium"

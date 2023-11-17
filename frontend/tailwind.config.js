@@ -33,6 +33,7 @@ export default withMT({
         'primary': '#f8de7e',
         'primary-50': '#fae596',
         'secondary': '#475569',
+        'secondary-50': '#f7f2ed',
         'footer': '#475569',
         'primary-0': '#fff'
       },
