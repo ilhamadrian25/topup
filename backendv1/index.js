@@ -24,6 +24,12 @@ try {
     // Code here
   })();
 
-  app.use(cors())
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:5173');
+  // Atau, jika ingin mengizinkan dari beberapa domain:
+  // res.header('Access-Control-Allow-Origin', 'http://domain1.com, http://domain2.com');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
   app.use(express.json())
   app.use(router)
