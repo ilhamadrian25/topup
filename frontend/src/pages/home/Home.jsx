@@ -1,7 +1,6 @@
 import React from 'react'
 import Carousel from '../../components/layouts/Carousel'
 import Tab from '../../components/layouts/Tabs'
-
 const Home = () => {
   return (
     <>
