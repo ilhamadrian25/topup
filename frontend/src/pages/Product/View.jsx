@@ -102,7 +102,7 @@ const View = () => {
                         <div className='bg-white rounded-lg flex'>
                             <div className="mx-5 flex flex-col gap-4 pb-5">
                                 <div className="flex gap-2 mt-5">
-                                    <div className='bg-blue-600 h-8 w-8 rounded rounded-b-full'>
+                                    <div className='bg-blue-400 h-8 w-8 rounded rounded-b-full'>
                                         <div className="flex justify-items-center justify-center">
                                             <span className='font-bold'>
                                                 1
@@ -133,7 +133,7 @@ const View = () => {
                         <div className="bg-white pb-4 rounded-lg">
                             <div className="flex flex-col gap-2 mx-5 mt-5">
                                 <div className="flex flex-row gap-2">
-                                    <div className='bg-blue-600 h-8 w-8 rounded rounded-b-full'>
+                                    <div className='bg-blue-400 h-8 w-8 rounded rounded-b-full'>
                                         <div className="flex justify-items-center justify-center">
                                             <span className='font-bold'>
                                                 2
@@ -196,7 +196,7 @@ const View = () => {
                         <div className='bg-white pb-4 rounded-lg'>
                             <div className="flex  flex-col gap-2 mx-5 mt-5">
                                 <div className="flex flex-row gap-2">
-                                    <div className='bg-blue-600 h-8 w-8 rounded rounded-b-full'>
+                                    <div className='bg-blue-400 h-8 w-8 rounded rounded-b-full'>
                                         <div className="flex justify-items-center justify-center">
                                             <span className='font-bold'>
                                                 3
@@ -215,7 +215,7 @@ const View = () => {
                         <div className='bg-white pb-4 rounded-lg'>
                             <div className="flex  flex-col gap-4 mx-5 mt-5">
                                 <div className="flex flex-row gap-2">
-                                    <div className='bg-blue-600 h-8 w-8 rounded rounded-b-full'>
+                                    <div className='bg-blue-400 h-8 w-8 rounded rounded-b-full'>
                                         <div className="flex justify-items-center justify-center">
                                             <span className='font-bold'>
                                                 4
