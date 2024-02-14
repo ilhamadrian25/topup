@@ -54,7 +54,8 @@ export default function RadioGroups() {
       <div className="">
         <RadioGroup value={selected} onChange={setSelected}>
           <RadioGroup.Label className="sr-only">Server size</RadioGroup.Label>
-          <div className="space-y-2 grid md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {/* <div className="space-y-2 grid md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3"> */}
+          <div className="space-y-2 grid s1:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {plans.map((plan) => (
               <RadioGroup.Option
                 key={plan.name}
