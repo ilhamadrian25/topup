@@ -51,7 +51,7 @@ const View = () => {
         <>
             <div className=" py-20 mx-2 flex flex-col gap-3 pb-5 s6:mx-56">
                 <div className="relative">
-                    <img className='h-60 w-full rounded-lg' src={"https://api.duniagames.co.id/api/content/upload/file/17961226881617693078.jpg"} alt="" srcSet="" />
+                    <img className='h-52 w-full rounded-lg' src={"https://api.duniagames.co.id/api/content/upload/file/17961226881617693078.jpg"} alt="" srcSet="" />
                 </div>
                 <div className='grid s6:grid-cols-3 gap-3'>
                     <div className='bg-white s6:h-72 s6:col-span-1 rounded-lg'>
