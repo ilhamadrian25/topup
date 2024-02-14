@@ -11,7 +11,7 @@ const Disclosuree = () => {
                     {({ open }) => (
                         <>
                             <Disclosure.Button className="flex w-full justify-between rounded-t-lg bg-purple-100 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500/75">
-                                <span className='mx-3'>What is your refund policy?</span>
+                                <span className='mx-3'>Metode Pembayaran</span>
                                 <ChevronUpIcon
                                     className={`${open ? 'rotate-180 transform' : ''
                                         } h-5 w-5 text-purple-500 mx-3`}

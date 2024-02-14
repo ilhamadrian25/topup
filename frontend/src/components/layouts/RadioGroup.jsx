@@ -54,7 +54,7 @@ export default function RadioGroups() {
       <div className="">
         <RadioGroup value={selected} onChange={setSelected}>
           <RadioGroup.Label className="sr-only">Server size</RadioGroup.Label>
-          <div className="space-y-2 grid grid-cols-3 gap-3">
+          <div className="space-y-2 grid md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {plans.map((plan) => (
               <RadioGroup.Option
                 key={plan.name}
@@ -80,13 +80,13 @@ export default function RadioGroups() {
                           >
                             <div>
 
-                            <img className={'h-5 w-10'} alt="" srcSet={'https://api.donkey.id/media/pay-alfamart-saved.png'} />
+                              <img className={'h-5 w-10'} alt="" srcSet={'https://api.donkey.id/media/pay-alfamart-saved.png'} />
                             </div>
                             <div>
 
-                            <span>
-                              Rp 3.100,-
-                            </span>
+                              <span>
+                                Rp 3.100,-
+                              </span>
                             </div>
                             <div className='divide-y'></div>
                           </RadioGroup.Label>
