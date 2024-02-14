@@ -1,11 +1,11 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import Home from './pages/Home/Home'
 import Layout from './components/layouts/Layout'
 import Login from './pages/Auth/Login'
 import StatusProduct from './pages/Status/StatusProduct'
 import Contact from './pages/Contact/Contact'
 import Register from './pages/Auth/Register'
 import View from './pages/Product/View'
+import Home from './pages/Home/Home'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
