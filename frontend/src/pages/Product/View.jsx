@@ -41,7 +41,7 @@ const View = () => {
 
     const handleSubmit = useCallback(() => {
         console.log('click');
-        return <MyModal/>
+        return <MyModal />
     })
 
     const handleClick = useCallback((state) => {
@@ -208,7 +208,7 @@ const View = () => {
                                     </div>
                                 </div>
                                 <div className="py-auto my-auto">
-                                    <Disclosuree/>
+                                    <Disclosuree />
                                 </div>
                             </div>
                         </div>
